@@ -1,4 +1,4 @@
-# EXTRACTING MUSIC DATA USING FROM SPOTIFY'S API
+# EXTRACTING MUSIC DATA USING SPOTIFY'S API
 This simple python script allows one to extract some specific data from the spotify API and save the extracted data to a `.txt` file in a more readable format.
 
 It makes use of the [spotipy](https://spotipy.readthedocs.io/en/2.19.0/) python package and demonstrates how data can be extracted from the spotify API with user authentication and without user authentication. 
