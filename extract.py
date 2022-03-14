@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-#Client Authorization Code Flow
+#Client Authorization Code Flow - Working with the spotify API with user authentication.
 def auth_code_flow():
     """
     Demonstrates how to extract a Spotify user's 50 most recent saved tracks 
@@ -40,7 +40,7 @@ def auth_code_flow():
 
 # auth_code_flow()
 
-#Client Credentials Flow 
+#Client Credentials Flow - Working with the spotify API without user authentication.
 def credentials_flow():
     """
     Demonstrates how to extract all tracks from the Spotify top 50 (Nigerian Version) playlist  
