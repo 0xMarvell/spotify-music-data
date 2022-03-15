@@ -38,7 +38,6 @@ def auth_code_flow():
         except:
             print("Oops!", sys.exc_info()[0], "occurred.")
 
-# auth_code_flow()
 
 #Client Credentials Flow - Working with the spotify API without user authentication.
 def credentials_flow():
@@ -80,4 +79,8 @@ def credentials_flow():
         except:
             print("Oops!", sys.exc_info()[0], "occurred.")
 
-# credentials_flow()
+# Calling Authentication Flow function
+auth_code_flow()
+
+# Calling Credentials Flow Function
+credentials_flow()
