@@ -12,9 +12,12 @@ It makes use of the [spotipy](https://spotipy.readthedocs.io/en/2.19.0/) python 
 ### Using your app credentials as environment variables
 After creating an app in your spotify developer account, There are some credentials you'll need to take note of:
  - Client ID
- - Client Secret
+ - Client Secret 
 
 These two credentials are vital and should be added to this script as environment variables. Learn how to set environment variables for python projects using this [guide](https://dev.to/jakewitcher/using-env-files-for-environment-variables-in-python-applications-55a1).
+   - Take note that your environment variables should be named `SPOTIPY_CLIENT_ID` and `SPOTIPY_CLIENT_SECRET` respectively.
+
+You'll also need to add a redirection URI to your spotify app. To do this, Simply log in, find your app and click "Edit Settings" in the top right section. Under redirect URIs you add ```http://localhost:8080/callback``` and remember to click save in the bottom.
 
 ## Run Python Script
  - Clone project.
@@ -26,4 +29,20 @@ These two credentials are vital and should be added to this script as environmen
     ```bash
     python3 -m venv env
     ```
-
+ - Activate virtual environment (MacOS/Linux).
+   ```bash
+   source env/bin/activate
+   ```
+ - Activate virtual environment (Windows Powershell).
+   ```bash
+   env/bin/activate.ps1
+   ```
+ - Install all required packages.
+   ```bash
+   pip3 install -r requirements.txt
+   ```
+ - Run python script.
+   ```bash
+   python3.10 extract.py
+   ```
+- A browser window will open up. Copy the URL of the page that opened and paste in terminal the hit the `enter` but not too hard... pity your keyboard :)
