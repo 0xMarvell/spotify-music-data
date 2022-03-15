@@ -46,4 +46,4 @@ You'll also need to add a redirection URI to your spotify app. To do this, Simpl
    ```bash
    python3.10 extract.py
    ```
-- A browser window will open up. Copy the URL of the page that opened and paste in terminal the hit the `enter` but not too hard... pity your keyboard :)
+- A browser window will open up. Copy the URL of the page that opened and paste in terminal then hit the `enter` button but not too hard... pity your keyboard :)
