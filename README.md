@@ -27,7 +27,7 @@ You'll also need to add a redirection URI to your spotify app. To do this, Simpl
  - Open project folder in text editor (VSCode, Atom, etc).
  - Create virtual environment using terminal.
     ```bash
-    python3 -m venv env
+    python3.10 -m venv env
     ```
  - Activate virtual environment (MacOS/Linux/Git Bash).
    ```bash
