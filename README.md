@@ -29,13 +29,14 @@ You'll also need to add a redirection URI to your spotify app. To do this, Simpl
     ```bash
     python3 -m venv env
     ```
- - Activate virtual environment (MacOS/Linux).
+ - Activate virtual environment (MacOS/Linux/Git Bash).
    ```bash
    source env/bin/activate
    ```
- - Activate virtual environment (Windows Powershell).
-   ```bash
-   env/bin/activate.ps1
+ - Activate virtual environment (Windows).
+   ```powershell
+   env/bin/activate.ps1 (powershell)
+   env/bin/activate.bat (command prompt)
    ```
  - Install all required packages.
    ```bash
