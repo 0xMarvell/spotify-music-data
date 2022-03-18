@@ -27,7 +27,7 @@ You'll also need to add a redirection URI to your spotify app. To do this, Simpl
  - Open project folder in text editor (VSCode, Atom, etc).
  - Create virtual environment using terminal.
     ```bash
-    python3 -m venv env
+    python3.10 -m venv env
     ```
  - Activate virtual environment (MacOS/Linux/Git Bash).
    ```bash
@@ -40,10 +40,10 @@ You'll also need to add a redirection URI to your spotify app. To do this, Simpl
    ```
  - Install all required packages.
    ```bash
-   pip3 install -r requirements.txt
+   pip install -r requirements.txt
    ```
  - Run python script.
    ```bash
-   python3.10 extract.py
+   python extract.py
    ```
 - A browser window will open up. Copy the URL of the page that opened and paste in terminal then hit the `enter` button but not too hard... pity your keyboard :)
