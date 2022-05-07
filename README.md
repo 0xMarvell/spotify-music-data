@@ -35,8 +35,8 @@ You'll also need to add a redirection URI to your spotify app. To do this, Simpl
    ```
  - Activate virtual environment (Windows).
    ```powershell
-   env/bin/activate.ps1 (powershell)
-   env/bin/activate.bat (command prompt)
+   env/Scripts/activate.ps1 (powershell)
+   env/Scripts/activate.bat (command prompt)
    ```
  - Install all required packages.
    ```bash
